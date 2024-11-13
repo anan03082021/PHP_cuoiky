@@ -12,8 +12,10 @@
     <div class="team" style="margin: 0 15px 0 15px">
      <h3>Hỗ trợ khách hàng</h3>
      Hotline: 0903857***<br />
-     <a href="">Hướng dẫn mua hàng</a><br />
-     <a href="">Hướng dẫn thanh toán</a>
+     <a href="#">Hướng dẫn mua hàng</a><br />
+     <a href="#">Hướng dẫn thanh toán</a><br><br>
+     <a href="#"><img src="media/Facebook_Logo.png" width="30px"></a>
+     <a href="#"><img src="media/Zalo_Logo.png" width="30px"></a>
     </div>
     <div  class="team" style="margin: 0 0 0 15px">
      <h3>Về EduShop</h3>
