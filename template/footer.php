@@ -3,10 +3,10 @@
     <div class="team" style="text-align: center; margin: 0 15px 0 0">
      <img src="media/Logo.png" width="150px" /><br />
      <p>
-      <a href="#">A</a><br>
-      <a href="#">B</a><br>
-      <a href="#">C</a><br>
-      <a href="#">D</a>
+      <a href="#">#</a><br>
+      <a href="#">#</a><br>
+      <a href="#">#</a><br>
+      <a href="#">#</a>
      </p>
     </div>
     <div class="team" style="margin: 0 15px 0 15px">
