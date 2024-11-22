@@ -8,7 +8,7 @@
         public $CONFIG_servername = "localhost";
         public $CONFIG_username = "root";
         public $CONFIG_password = "";
-        public $CONFIG_dbname = "vanphongpham";
+        public $CONFIG_dbname = "PHP_cuoiky";
 
         public $conn ; 
         
