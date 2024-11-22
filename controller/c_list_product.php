@@ -14,11 +14,5 @@
         }
 
         // Phương thức tìm kiếm sản phẩm theo tên
-        public function search_by_name($name)
-        {
-            $product = new Product();
-            $list_product = $product->search_by_name($name);
-            return $list_product;
-        }
     }
 ?>

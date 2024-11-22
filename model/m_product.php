@@ -8,7 +8,7 @@
         public function create_1_product($name, $description, $price, $in_stock, $category_id, $avatar_path)
         {
           
-            $sql = "INSERT INTO flower (name, type, color, price, in_stock, category_id, avatar)
+            $sql = "INSERT INTO product (name, description, price, in_stock, category_id, avatar)
             VALUES ('$name', '$description', '$price', '$in_stock', '$category_id', '$avatar_path')";
 
             $this->set_query($sql);
@@ -35,25 +35,6 @@
             return $list_product;
         }
 
-
-        public function search_by_name($name){
-            $sql = "SELECT *
-                    FROM flower
-                    WHERE ";
-
-            $this->set_query($sql);
-
-            $result = $this->excute_query();
-
-            $list_flower = array();
-            if ($result->num_rows>0){
-                while ($row = $result->fetch_assoc()){
-                    $list_flower[]=$row;
-                }
-            }
-            return $list_flower;
-
-        }
 
 
     }
